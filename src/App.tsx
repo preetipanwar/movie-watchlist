@@ -42,6 +42,12 @@ export default function App() {
           />
         ))}
       </div>
+      <footer className="text-center text-gray-500 py-8">
+        Inspired from{' '}
+        <a href="https://top50.surge.sh/" target="blank">
+          https://top50.surge.sh/
+        </a>
+      </footer>
     </div>
   );
 }
