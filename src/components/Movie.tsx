@@ -1,4 +1,10 @@
-export default function Movie({ movie, handleClick, watchList }) {
+interface Prop {
+  movie: any;
+  handleClick: any;
+  watchList: any;
+}
+
+export default function Movie({ movie, handleClick, watchList }: Prop) {
   const clone = [...watchList];
 
   const result = clone.find((item) => {
