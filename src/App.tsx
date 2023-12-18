@@ -5,7 +5,7 @@ import Movie from './components/Movie';
 export default function App() {
   const [watchList, setWatchList] = useState<any>([]);
 
-  const handleClick = (movie) => {
+  const handleClick = (movie: any) => {
     const clone = [...watchList];
 
     // index, -1
